@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Website HTML</title>
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="./materialize/css/materialize.min.css">
+    <script src="./materialize/js/materialize.min.js"></script>
+    <!-- PHOSPHOR ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/phosphor-icons@latest/src/css/icons.css">
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section id="hero">
+        <nav class="navigation">
+            <!-- menu-btn -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <!-- logo -->
+            <a href="#" class="logo"><span>We</span>Care</a>
+            <!-- menu -->
+            <ul class="menu">
+                <li><a href="#team">Encuentra un Doctor</a></li>
+                <li><a href="#our-services">Nuestros servicios</a></li>
+                <li><a href="#testimonials">Testimonios</a></li>
+            </ul>
+            <!-- Appointment-btn -->
+                <a href="#" class="nav-appointment-btn">Aparta una Cita</a>
+        </nav> <!-- nav-end -->
+
+        <!--**content**********************************-->
+        <div class="hero-content">
+            <!--**text**-->
+            <div class="hero-text">
+                <h1>Siéntete mejor a la hora de buscar asistencia médica</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, corrupti voluptate ut animi nam magnam reiciendis assumenda voluptatum neque placeat molestiae maiores debitis, perferendis voluptas aspernatur expedita, laboriosam provident vel?</p>
+                <!-- btns -->
+                <div class="hero-text-btns">
+                    <a href="#">
+                        <i class="ph ph-magnifying-glass"></i>                        
+                        Encuentra un doctor
+                    </a>
+                    <a href="#">
+                        <i class="ph ph-check"></i>
+                        Reserva una cita
+                    </a>
+                </div>
+            </div>
+                <!--**img**-->
+                <div class="hero-img">
+                    <img src="./media/img/d1.png" alt="">
+                </div>
+        </div>
+    </section> <!-- hero end -->
+
+    <!--== Search ==================================== -->
+    <div class="appointment-search-container">
+        <h3>Encuentre la mejor asistencia sanitaria</h3>
+        <!-- **search*********************** -->
+        <div class="appointment-search">
+            <!-- **search-box** -->
+            <div class="appo-search-box">
+                <i class="ph ph-magnifying-glass"></i>
+                <input type="text" placeholder="Busca un doctor aquí">
+            </div>
+            <!-- **search-box** -->
+            <div class="appo-search-box">
+                <i class="ph ph-map-pin"></i>
+                <input type="text" placeholder="¿Dónde te encuentras?">
+            </div>
+            <!--**btn*********-->
+            <button>
+                <i class="ph ph-magnifying-glass"></i>
+            </button>
+        </div>
+    </div> <!--search end-->
+
+    <!--==What-we-provide======================== -->
+
+    <section class="what-we-provide">
+        <!--**box1*********************-->
+        <div class="w-info-box w-info-box1">
+            <!-- icon -->
+            <div class="w-info-icon">
+                <i class="ph ph-pill"></i>
+            </div>
+            <!-- text -->
+                <div class="w-info-text">
+                    <strong>Servicio Especializado</strong>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+        </div>
+
+        <!--**box2*********************-->
+        <div class="w-info-box w-info-box2">
+            <!-- icon -->
+            <div class="w-info-icon">
+                <i class="ph ph-chat-circle"></i>
+            </div>
+            <!-- text -->
+                <div class="w-info-text">
+                    <strong>Atención Avanzada 24/7</strong>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+        </div>
+
+        <!--**box3*********************-->
+        <div class="w-info-box w-info-box3">
+            <!-- icon -->
+            <div class="w-info-icon">
+                <i class="ph ph-notebook"></i>
+            </div>
+            <!-- text -->
+                <div class="w-info-text">
+                    <strong>Obtén Resultados Online</strong>
+                    <p>Lorem ipsum dolor sit</p>
+                </div>
+        </div>
+
+    </section> <!--End-->
+
+    <!-- ==Our-Story============================= -->
+    <section id="our-story">
+        <!-- **img************************ -->
+        <div class="our-story-img">
+            <img src="./media/img/young-male-psysician.jpg" alt="">
+            <!-- video-play-btn -->
+                <a href="#" class="story-play-btn">
+                    <i class="ph ph-play"></i>
+                    Reproducir Video
+                </a>
+        </div>
+        <!-- **text*************************** -->
+        <div class="our-story-text">
+            <!-- **text*************** -->
+                <h2>Una historia corta acerca de nosotros</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet earum praesentium iure dolores. Eveniet saepe mollitia, nulla, labore minima expedita consequuntur modi ducimus delectus eius, quas voluptas facere enim quis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, aut molestiae quisquam accusamus similique enim, quidem laboriosam voluptatum iste.</p>
+            <!-- happy-clients-number -->
+            <div class="story-number-container">
+                <!-- box -->
+                <div class="story-number-box s-n-box1">
+                    <strong>1000+</strong>
+                    <span>Pacientes Felices</span>
+                </div>
+                <!-- box2 -->
+                <div class="story-number-box s-n-box2">
+                        <strong>1000+</strong>
+                        <span>Pacientes Felices</span>
+                </div>
+                <!-- box3 -->
+                <div class="story-number-box s-n-box3">
+                    <strong>310+</strong>
+                    <span>Cuartos en el Hospital</span>
+                </div>
+                <!-- box4 -->
+                <div class="story-number-box s-n-box4">
+                    <strong>106+</strong>
+                    <span>Premios Ganados</span>
+                </div>
+            </div> <!--container-end-->
+        </div>
+    </section><!--story-end-->
+
+<!--==Our-sevices==================-->
+    <section id="our-services">
+
+            <!-- **heading********************* -->
+            <div class="services-heading">
+                <!--text -->
+                <div class="services-heading-text">
+                    <strong>Nuestros Servicios</strong>
+                    <h2>Alta calidad de nuestros servicios para usted</h2>
+                </div>
+            </div>
+
+        <!-- **box-container***************** -->
+            <div class="services-box-container">
+                <!-- Swiper -->
+                <div class="swiper mySwiperservices">
+                        <!--*** Slide-1********** -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide services-box s-box1">
+                            <i class="ph-fill ph-tooth"></i>
+                            <strong>Cuidado Dental</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a href="#">Lea más aquí</a>
+                        </div>
+                        <!--*** Slide-2********** -->
+                        <div class="swiper-slide services-box s-box2">
+                            <i class="ph-fill ph-tooth"></i>
+                            <strong>Cuidado Dental</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a href="#">Lea más aquí</a>
+                        </div>
+                        <!--*** Slide-3********** -->
+                        <div class="swiper-slide services-box s-box3">
+                            <i class="ph-fill ph-tooth"></i>
+                            <strong>Cuidado Dental</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a href="#">Lea más aquí</a>
+                        </div>
+                        <!--*** Slide-4********** -->
+                        <div class="swiper-slide services-box s-box4">
+                            <i class="ph-fill ph-tooth"></i>
+                            <strong>Cuidado Dental</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <a href="#">Lea más aquí</a>
+                        </div>
+                    </div>
+                    <div class="services-slide-btns">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div> <!-- swiper-end -->
+            </div>
+            <!-- btn -->
+            <span class="service-help-btn">Contactanos si necesitas alguno de nuestros servicios. <a href="#">¡Es hora de pasar a la acción!</a></span>
+    </section> <!--==Service-End====================================-->
+            
+            <!-- ==Why choose us============================= -->
+            <section id="why-choose-us">
+                <!-- **left******************* -->
+                    <div class="why-choose-us-left">
+                        <h3>¿Por qué elegirnos a nosotros?</h3>
+                        <!-- ==container============== -->
+                        <div class="why-choose-box-container">
+                            <!-- *box* -->
+                            <div class="why-choose-box">
+                                <!-- icon -->
+                                <i class="ph ph-check"></i>
+                                <!-- text -->
+                                <div class="why-choose-box-text">
+                                    <strong>Cuidado Anticipado</strong>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+
+                            <!-- *box* -->
+                            <div class="why-choose-box">
+                                <!-- icon -->
+                                <i class="ph ph-check"></i>
+                                <!-- text -->
+                                <div class="why-choose-box-text">
+                                    <strong>Cuidado Anticipado</strong>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+
+                            <!-- *box* -->
+                            <div class="why-choose-box">
+                                <!-- icon -->
+                                <i class="ph ph-check"></i>
+                                <!-- text -->
+                                <div class="why-choose-box-text">
+                                    <strong>Cuidado Anticipado</strong>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+
+                            <!-- *box* -->
+                            <div class="why-choose-box">
+                                <!-- icon -->
+                                <i class="ph ph-check"></i>
+                                <!-- text -->
+                                <div class="why-choose-box-text">
+                                    <strong>Cuidado Anticipado</strong>
+                                    <p>Lorem ipsum dolor sit.</p>
+                                </div>
+                            </div>
+                        </div> <!--container-end-->
+
+                        <!--==btn===================-->
+                        <a href="#" class="why-choose-us-btn">Reserva una cita</a>
+                    </div>
+                <!-- **right******************* -->
+                    <div class="why-choose-us-right">
+                        <h3>
+                            ¿Emergencia? <br>
+                            Contáctanos
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus a odio ab est autem ipsum velit. Iusto nulla ratione nam nostrum. 
+                        <!-- ==container===================== -->
+                        <div class="w-right-contact-container">
+                            <!-- **box** -->
+                            <div class="w-right-contact-box">
+                                <!-- icon -->
+                                <i class="ph-fill ph-phone"></i>
+                                <!-- text -->
+                                <div class="w-right-contact-box-text">
+                                    <span>¡Llámanos ahora!</span>
+                                    <strong>+123 456 789</strong>
+                                </div>
+                            </div>
+
+                            <!-- **box** -->
+                            <div class="w-right-contact-box">
+                                <!-- icon -->
+                                <i class="ph ph-envelope"></i>
+                                <!-- text -->
+                                <div class="w-right-contact-box-text">
+                                    <span>¡Envíanos un correo!</span>
+                                    <strong>info@example.com</strong>
+                                </div>
+                            </div>
+
+                            
+
+                        </div> <!--container-end-->
+                    </div> <!--right-end-->
+            </section>
+            
+            <section id="team">
+                <!-- **heading************ -->
+                <div class="team-heading">
+                    <h3>Conoce a nuestros especialistas</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- **container***************** -->
+                    <div class="team-box-container">
+
+                        <div class="swiper mySwiperteam">
+                            <div class="swiper-wrapper">
+
+                                <!--**slide-1********************** -->
+                                <div class="swiper-slide">
+                                    <!-- **box** -->
+                                    <div class="team-box">
+                                        <!-- img -->
+                                        <div class="team-img">
+                                            <img src="./media/img/d1.png" alt="">
+                                        </div>
+                                        <!-- text -->
+                                        <div class="team-text">
+                                            <strong>Dr Paradox Al</strong>
+                                            <span>Especialista en dermatología</span>
+                                        </div>
+                                    </div>
+                                </div><!--Slide-end-->
+
+                                <!--**slide-2********************** -->
+                                <div class="swiper-slide">
+                                    <!-- **box** -->
+                                    <div class="team-box">
+                                        <!-- img -->
+                                        <div class="team-img">
+                                            <img src="./media/img/d1.png" alt="">
+                                        </div>
+                                        <!-- text -->
+                                        <div class="team-text">
+                                            <strong>Dr Paradox Al</strong>
+                                            <span>Especialista en dermatología</span>
+                                        </div>
+                                    </div>
+                                </div><!--Slide-end-->
+
+                                <!--**slide-3********************** -->
+                                <div class="swiper-slide">
+                                    <!-- **box** -->
+                                    <div class="team-box">
+                                        <!-- img -->
+                                        <div class="team-img">
+                                            <img src="./media/img/d1.png" alt="">
+                                        </div>
+                                        <!-- text -->
+                                        <div class="team-text">
+                                            <strong>Dr Paradox Al</strong>
+                                            <span>Especialista en dermatología</span>
+                                        </div>
+                                    </div>
+                                </div><!--Slide-end-->
+
+                                <!--**slide-4********************** -->
+                                <div class="swiper-slide">
+                                    <!-- **box** -->
+                                    <div class="team-box">
+                                        <!-- img -->
+                                        <div class="team-img">
+                                            <img src="./media/img/d1.png" alt="">
+                                        </div>
+                                        <!-- text -->
+                                        <div class="team-text">
+                                            <strong>Dr Paradox Al</strong>
+                                            <span>Especialista en dermatología</span>
+                                        </div>
+                                    </div>
+                                </div><!--Slide-end-->
+
+                                <!--**slide-5********************** -->
+                                <div class="swiper-slide">
+                                    <!-- **box** -->
+                                    <div class="team-box">
+                                        <!-- img -->
+                                        <div class="team-img">
+                                            <img src="./media/img/d1.png" alt="">
+                                        </div>
+                                        <!-- text -->
+                                        <div class="team-text">
+                                            <strong>Dr Paradox Al</strong>
+                                            <span>Especialista en dermatología</span>
+                                        </div>
+                                    </div>
+                                </div><!--Slide-end-->
+                            </div><!-- wrapper-end -->
+                            <div class="swiper-pagination"></div>
+                        </div> <!-- swiper-end -->
+
+
+
+
+                    </div>
+            </section> <!--==end-team=============================-->
+            
+            
+            <!--==Testimonials=================================-->
+            <section id="testimonials">
+
+                <!--**heading*********************************-->
+                <div class="testimonials-heading">
+                    <h3>Lo que nuestros pacientes dicen de nosotros</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut itaque reiciendis possimus cupiditate.</p>
+                </div>
+
+                <!--**testimonials-content****-->
+                <div class="testimonials-content">
+                        <div class="testimonials-img">
+                            <img src="./media/img/young-woman-smiling-wheelchair.jpg" alt="">
+                        </div>
+                    
+
+                    <!--**container**-->
+                    <div class="testimonials-box-container">
+
+                        <div class="swiper mySwipertestimonials">
+                            <div class="swiper-wrapper">
+
+                                <!--**slide-1********************** -->
+                                <div class="swiper-slide">
+                                    <!--==Box===========-->
+                                    <div class="testimonials-box">
+                                        <!-- profile -->
+                                        <div class="t-profile">
+                                            <!-- img -->
+                                            <div class="t-profile-img">
+                                                <img src="./media/img/lovely-korean-woman-posing-with-peace-sign-laughing-asian-young-woman-taking-selfie-purple-background.jpg" alt="">
+                                            </div>
+                                            <!-- text -->
+                                            <div class="t-profile-text">
+                                                <strong>Nombre del cliente</strong>
+                                                <span>De China</span>
+                                                <!-- rating -->
+                                                <div class="t-rating">
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                </div>
+                                            </div>
+                                        </div> <!-- profile-end -->
+                                        <!-- feedback -->
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate nam dolore enim sint quibusdam illo quis neque quasi impedit. Vitae corporis iure voluptates. Quam ipsum atque temporibus architecto illo?</p>
+                                    </div><!--box-end-->
+                            
+                                </div> <!-- swiper-end -->
+                            
+                                <!--**slide-2********************** -->
+                                <div class="swiper-slide">
+                                                                    <!--==Box===========-->
+                                                                    <div class="testimonials-box">
+                                                                        <!-- profile -->
+                                                                        <div class="t-profile">
+                                                                            <!-- img -->
+                                                                            <div class="t-profile-img">
+                                                                                <img src="./media/img/lovely-korean-woman-posing-with-peace-sign-laughing-asian-young-woman-taking-selfie-purple-background.jpg" alt="">
+                                                                            </div>
+                                                                            <!-- text -->
+                                                                            <div class="t-profile-text">
+                                                                                <strong>Nombre del cliente</strong>
+                                                                                <span>De China</span>
+                                                                                <!-- rating -->
+                                                                                <div class="t-rating">
+                                                                                    <i class="ph-fill ph-star"></i>
+                                                                                    <i class="ph-fill ph-star"></i>
+                                                                                    <i class="ph-fill ph-star"></i>
+                                                                                    <i class="ph-fill ph-star"></i>
+                                                                                    <i class="ph-fill ph-star"></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div> <!-- profile-end -->
+                                                                        <!-- feedback -->
+                                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate nam dolore enim sint quibusdam illo quis neque quasi impedit. Vitae corporis iure voluptates. Quam ipsum atque temporibus architecto illo?</p>
+                                                                    </div><!--box-end-->
+                                
+                                </div> <!-- swiper-end -->
+                            
+                                <!--**slide-3********************** -->
+                                <div class="swiper-slide">
+                                    <!--==Box===========-->
+                                    <div class="testimonials-box">
+                                        <!-- profile -->
+                                        <div class="t-profile">
+                                            <!-- img -->
+                                            <div class="t-profile-img">
+                                                <img src="./media/img/lovely-korean-woman-posing-with-peace-sign-laughing-asian-young-woman-taking-selfie-purple-background.jpg" alt="">
+                                            </div>
+                                            <!-- text -->
+                                            <div class="t-profile-text">
+                                                <strong>Nombre del cliente</strong>
+                                                <span>De China</span>
+                                                <!-- rating -->
+                                                <div class="t-rating">
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                    <i class="ph-fill ph-star"></i>
+                                                </div>
+                                            </div>
+                                        </div> <!-- profile-end -->
+                                        <!-- feedback -->
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate nam dolore enim sint quibusdam illo quis neque quasi impedit. Vitae corporis iure voluptates. Quam ipsum atque temporibus architecto illo?</p>
+                                    </div><!--box-end-->
+                            
+                                </div> <!-- swiper-end -->
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div> <!--container-end-->
+                </div> <!--content-end-->
+            </section> <!--Testimonials-end-->
+
+            <!-- ==Subscribe========================== -->
+            <section id="subscribe">
+                <h3>Suscribirse a nuevas actualizaciones de WeCare</h3>
+                <!-- ==subscribe-box=========== -->
+                <form action="" class="subscribe-box">
+                    <input type="email" placeholder="Example@site">
+                    <button>Suscribirse</button>
+                </form>
+            </section>
+
+
+            <!-- ==Footer========================== -->
+            <footer>
+                <div class="footer-container">
+
+                    <!-- **company-box********* -->
+                    <div class="footer-company-box">
+                        <!-- logo -->
+                        <a href="#" class="logo"><span>We</span>Care</a>
+                        <!-- details -->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus similique quis cumque eum expedita animi.</p>
+                        <!-- social-box -->
+                        <div class="footer-social">
+                            <a href="#"><i class="ph-fill ph-facebook-logo"></i></a>
+                            <a href="#"><i class="ph-fill ph-instagram-logo"></i>                            </a>
+                            <a href="#"><i class="ph-fill ph-x-logo"></i>                            </a>
+                            <a href="#"><i class="ph-fill ph-youtube-logo"></i>                            </a>
+                        </div>
+                    </div> <!--company-box-end-->
+
+                    <!-- **link******************** -->
+                    <div class="footer-link-box">
+                        <strong>Enlaces principales</strong>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="#">Contactos</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Portafolio</a></li>
+                        </ul>
+                    </div>
+                </div><!--container-end--> 
+
+                <!-- **bottom******************* -->
+                <div class="footer-bottom">
+                    <span>Hecho por Junior en Internet</span>
+                    <span>Copyright 2022 - Hecho por Junior</span>
+                </div>
+            </footer>
+            
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var swiper = new Swiper(".mySwiperservices", {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },navigation:{
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    breakpoints: {
+                        540: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        950: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1050: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    },
+                });
+            });
+            
+
+            // *==team==============================*
+            var swiper = new Swiper(".mySwiperteam", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            540: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            },
+            768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+            },
+            1250: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+            },
+        },
+        });
+
+        // **== Testimonials===================**
+        var swiper = new Swiper(".mySwipertestimonials", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            },
+            768: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            },
+            1024: {
+            slidesPerView: 1,
+            spaceBetween: 50,
+            },
+        },
+        });
+        </script>
+        
+</body>
+</html>
