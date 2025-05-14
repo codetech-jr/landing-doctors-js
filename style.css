@@ -1093,6 +1093,10 @@ footer{
         z-index: 103;
     }
 
+    .nav-appointment-btn{
+        height: 4.02vh;
+    }
+
     .logo{
         margin-right: auto;
         margin: 1.25rem;
@@ -1111,6 +1115,15 @@ footer{
         box-shadow: 2px 2rem 2rem rgba(0, 0, 0, 0.06);
         top: 100%;
         left: 0;
+    }
+
+    .hero-text-btns a{
+        height: 4.02vh;
+    }
+
+    .hero-text-btns a i{
+        width: 2.32vw;
+        height: 1.8vh;
     }
 
     .menu::after{
