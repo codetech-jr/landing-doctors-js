@@ -74,7 +74,7 @@ ul{
 
 .nav-appointment-btn{
     display: flex;
-    height:  4.02vh;
+    height:  6.02vh;
     padding: 0 1.25rem;
     border-radius: 0.25rem;
     background-color: #014dd5;
@@ -1071,6 +1071,18 @@ footer{
         margin: 3.13rem auto;
     }
 
+    .nav-appointment-btn{
+        height: 4.02vh;
+    }
+
+    .hero-text-btns a{
+        height: 4.02vh;
+    }
+
+    .hero-text-btns a i {
+        width: 2.32vw;
+    }
+
     .hero-text{
         margin-bottom: 2.5rem;
         background-color: #fff;
@@ -1196,6 +1208,10 @@ footer{
     .menu-btn:checked ~ .menu-icon .nav-icon::after{
         transform: rotate(45deg);
         top: 0;
+    }
+
+    .subscribe-box button{
+        max-width: 20.82vw;
     }
 
     .menu-btn:checked ~ .menu-icon .nav-icon{
